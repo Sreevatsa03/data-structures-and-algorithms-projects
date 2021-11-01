@@ -1,8 +1,6 @@
 # Data Structures and Algorithms Projects
-This repo is a collection of every project I completed in my Data Structures and Algorithms class. Below are a list of each project and a short description. There is a more detailed README within each project directory.
+Repository of every project I completed in my Post AP Computer Science: Data Structures and Algorithms class, taken during the 2019-2020 school year.
 
-## Project 1
-- 
+- ### Project 1
 
-## Project 2
-- 
+- ### Project 2
