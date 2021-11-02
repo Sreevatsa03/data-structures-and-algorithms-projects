@@ -1,30 +1,42 @@
-#include <iostream>
 #include <cstdlib>
-// #include "DMatrix.cpp"
+#include <iostream>
 
-#ifndef DMATRIX_H_
-#define DMATRIX_H_
+#ifndef DMATRIX_H
+#define DMATRIX_H
 
 using namespace std;
 
 class dmatrix {
-    private:
-        int rowsTotal;
-        int colsTotal;
-        float **matrix;
-    public:
-        dmatrix();
-        dmatrix(int rows, int cols);
-        ~dmatrix();
-        float get(int row, int col);
-        void set(int row, int col, float value);
-        int getTotalRows();
-        int getTotalCols();
-        // float matrixMultiply(float matrix1[int rows1][int cols1], float matrix2[int rows2][int cols2]);
-        // float matrixMultiply(float dmatrix matrix1, float dmatrix matrix2);
+private:
+    int rowsTotal;
+    int colsTotal;
+    float **matrix;
+public:
+    // dmatrix(int rows, int cols);
+    // dmatrix();
+    // virtual ~dmatrix();
+    // float** getArr() const;
+    // // dmatrix(const dmatrix &);
+    // int getSize() const;
+    // float get(int row, int col) const;
+    // void set(int row, int col, float val);
+    // int getRows() const;
+    // int getCols() const;
+    // void dump() const;
+    // dmatrix multiply(const dmatrix &);
+    dmatrix();
+    dmatrix(int, int);
+    // dmatrix(const dmatrix &);
+    float get(int, int) const;
+    int getSize() const;
+    int getRows() const;
+    int getCols() const;
+    void set(int, int, float);
+    dmatrix multiply(const dmatrix &);
+    void dump() const;
+    virtual ~dmatrix();
+    float** getArr() const;
 };
 
 
-
-
-#endif
+#endif 
