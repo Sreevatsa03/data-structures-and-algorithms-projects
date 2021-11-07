@@ -6,7 +6,7 @@ Throughout this project our team implemented the graph data structure consisting
 
 In order to run the Markov Clustering algorithm, the Eigen 3 Library, in which version 3.3.7 is the latest stable version. This can be downloaded from [Eigen Main Page](http://eigen.tuxfamily.org/index.php?title=Main_Page). This is the only necessary library that must be downloaded in order to run our code.
 
-## Data
+## [Data](data)
 
 Data used can be found in the data folder
 All the data we used were various types of graphs such as directed and weighted, undirected and unweighted, etc. We imported all our data from [SNAP Database](https://snap.stanford.edu/data/). The methods that we have written interepret interesting properties of graphs such as being cyclic or not, clustering using multiple methods, indegree and outdegree, and max flow. 
@@ -37,6 +37,6 @@ Our code is made up of various hpp files:
   * Contains the method to create and import graphs as well as run funtions on those graphs
 
 
-## Results
+## [Results](results)
 
 Results of the main method can be found in the results folder
