@@ -15,25 +15,25 @@ All the data we used were various types of graphs such as directed and weighted,
 
 Our code is made up of various hpp files:
 
-#### [edge.hpp](graph_analysis_project/edge.hpp)
+#### [edge.hpp](edge.hpp)
   * Makes a single edge object that contains source, destination, and weight info with a comparator that allows for minheaps based on edge weight to be created in analyser methods
 
-#### [node.hpp](graph_analysis_project/node.hpp)
+#### [node.hpp](node.hpp)
   * Most basic object for each point in the graph containing the number of the node
   
-#### [point.hpp](graph_analysis_project/point.hpp)
+#### [point.hpp](point.hpp)
   * Object representing each point of the graph that creates a node as well as retrieves it and its weight
   
-#### [graph.hpp](graph_analysis_project/graph.hpp)
+#### [graph.hpp](graph.hpp)
   * Object that creates and prints a collection of the points in the graph interrelated by edges as well as retrieves its properties
   
-#### [analyser.hpp](graph_analysis_project/analyser.hpp)
+#### [analyser.hpp](analyser.hpp)
   * Contains all but one of the analysis functions that can be run on the graphs, which writes the results to text files 
   
-#### [mcl.hpp](graph_analysis_project/mcl.hpp)
+#### [mcl.hpp](mcl.hpp)
   * Contains our Markov Clustering Algorithm
   
-#### [main.hpp](graph_analysis_project/main.hpp)
+#### [main.hpp](main.hpp)
   * Contains the method to create and import graphs as well as run funtions on those graphs
 
 
