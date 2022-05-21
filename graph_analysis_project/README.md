@@ -13,8 +13,6 @@ All the data we used were various types of graphs such as directed and weighted,
 
 ## Code
 
-Our code is made up of various hpp files:
-
 #### [edge.hpp](edge.hpp)
   * Makes a single edge object that contains source, destination, and weight info with a comparator that allows for minheaps based on edge weight to be created in analyser methods
 
@@ -33,7 +31,7 @@ Our code is made up of various hpp files:
 #### [mcl.hpp](mcl.hpp)
   * Contains our Markov Clustering Algorithm
   
-#### [main.hpp](main.cpp)
+#### [main.cpp](main.cpp)
   * Contains the method to create and import graphs as well as run funtions on those graphs
 
 
