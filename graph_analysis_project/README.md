@@ -33,7 +33,7 @@ Our code is made up of various hpp files:
 #### [mcl.hpp](mcl.hpp)
   * Contains our Markov Clustering Algorithm
   
-#### [main.hpp](main.hpp)
+#### [main.hpp](main.cpp)
   * Contains the method to create and import graphs as well as run funtions on those graphs
 
 
